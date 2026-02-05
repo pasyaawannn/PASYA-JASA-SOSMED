@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Order | Pasya Store</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <h2>PASYA STORE</h2>
+        <span>Order Confirmation</span>
+    </div>
+</nav>
+
+<section class="order">
+    <h1>Form Pemesanan</h1>
+    <p class="desc">
+        Silakan lengkapi data berikut sebelum melanjutkan ke pembayaran.
+    </p>
+
+    <form class="order-form">
+
+        <!-- NAMA PELANGGAN -->
+        <div class="form-group">
+            <label>Nama Pelanggan</label>
+            <input type="text" placeholder="Masukkan nama Anda" required>
+        </div>
+
+        <!-- JUMLAH ORDER -->
+        <div class="form-group">
+            <label>Jumlah Order</label>
+            <input type="number" placeholder="Contoh: 1000" required>
+        </div>
+
+        <!-- CATATAN -->
+        <div class="form-group">
+            <label>Catatan (Opsional)</label>
+            <textarea placeholder="Catatan tambahan jika ada"></textarea>
+        </div>
+
+        <!-- METODE PEMBAYARAN -->
+        <div class="form-group">
+            <label>Pilih Metode Pembayaran</label>
+
+            <div class="payment-grid">
+                <label class="payment-card">
+                    <input type="radio" name="payment" required>
+                    <span>Transfer Bank</span>
+                </label>
+
+                <label class="payment-card">
+                    <input type="radio" name="payment">
+                    <span>E-Wallet</span>
+                </label>
+
+                <label class="payment-card">
+                    <input type="radio" name="payment">
+                    <span>QRIS</span>
+                </label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-submit">
+            <a href="payment.html">Lanjut ke Pembayaran</a>
+        </button>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Pasya Store</p>
+</footer>
+
+</body>
+</html>

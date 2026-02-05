@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+    background: #f9fafb;
+    color: #111827;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #ffffff;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.logo h2 {
+    color: #2563eb;
+}
+
+.logo span {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+}
+
+.nav-menu a.active,
+.nav-menu a:hover {
+    color: #2563eb;
+}
+
+/* SIGN UP SECTION */
+.signup-section {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-box {
+    width: 1000px;
+    background: #ffffff;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+}
+
+/* LEFT INFO */
+.signup-info {
+    width: 45%;
+    padding: 60px;
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.signup-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup-info p {
+    font-size: 15px;
+    line-height: 1.7;
+    opacity: 0.95;
+}
+
+/* FORM */
+.signup-form {
+    width: 55%;
+    padding: 60px;
+}
+
+.signup-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #111827;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.signup-form input {
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 14px;
+    outline: none;
+}
+
+.signup-form input:focus {
+    border-color: #2563eb;
+}
+
+/* BUTTON */
+.signup-form button {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background: #1e40af;
+}
+
+.alt {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6b7280;
+    text-align: center;
+}
+
+.alt a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .signup-section {
+        padding: 40px;
+    }
+
+    .signup-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .signup-info,
+    .signup-form {
+        width: 100%;
+    }
+}
