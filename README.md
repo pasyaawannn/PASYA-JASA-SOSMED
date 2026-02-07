@@ -14,3 +14,4 @@ Saya menyediakan layanan jasa sosial media untuk membantu akun personal maupun b
 - Pelayanan cepat, komunikasi jelas, dan hasil maksimal
 
 Saya siap membantu sosial media Anda menjadi lebih aktif, menarik, dan berkembang.
+# TIDAK MENYEDIAKAN BUZZER!!!
